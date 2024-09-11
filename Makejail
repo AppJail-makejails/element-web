@@ -1,0 +1,21 @@
+INCLUDE options/options.makejail
+
+ARG element_nginx_conf=files/nginx.conf
+ARG element_config?
+ARG element_tag=13.3
+
+FROM --entrypoint gh+AppJail-makejails/element-web element-web:${element_tag}
+
+COPY ${element_nginx_conf} /usr/local/etc/nginx/nginx.conf
+
+RAW if [ -z "${element_config}" ]; then
+        CMD if [ ! -f /usr/local/www/element/config.json ]; then \
+                cp /usr/local/www/element/config.sample.json \
+                    /usr/local/www/element/config.json; \
+            fi
+RAW else
+        COPY ${element_config} /usr/local/www/element/config.json
+RAW fi
+
+SYSRC nginx_enable=YES
+SERVICE nginx start
