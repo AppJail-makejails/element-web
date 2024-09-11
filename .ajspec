@@ -1,0 +1,16 @@
+tags: 13.3
+13.3.arch: amd64
+13.3.name: "element-web"
+13.3.timestamp.amd64: 1726080267
+13.3.sum.amd64: e717c806c2adf169521861060072c1e17f9e99f96744351e0e1442960f5bca7b
+13.3.size.amd64: 55293394
+13.3.source.amd64: "http://appjail.hpc.at/element-web/13.3-amd64-image.appjail"
+13.3.source.amd64+: "https://images.all101bsd.download/element-web/13.3-amd64-image.appjail"
+tags+: 14.1
+14.1.arch: amd64
+14.1.name: "element-web"
+14.1.timestamp.amd64: 1726080337
+14.1.sum.amd64: 40dc77707e08265da345d3b7b5ce4f27f1816ce20188febe0468d6e825d9db37
+14.1.size.amd64: 53998670
+14.1.source.amd64: "http://appjail.hpc.at/element-web/14.1-amd64-image.appjail"
+14.1.source.amd64+: "https://images.all101bsd.download/element-web/14.1-amd64-image.appjail"
