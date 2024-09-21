@@ -21,7 +21,7 @@ appjail makejail \
 
 ### Arguments
 
-* `element_tag` (default: `13.3`): See [#tags](#tags).
+* `element_tag` (default: `13.4`): See [#tags](#tags).
 * `element_config` (optional): Element configuration file.
 * `element_nginx_conf` (default: `files/nginx.conf`): NGINX configuration file.
 
@@ -29,5 +29,5 @@ appjail makejail \
 
 | Tag    | Arch    | Version        | Type   |
 | ------ | ------- | -------------- | ------ |
-| `13.3` | `amd64` | `13.3-RELEASE` | `thin` |
+| `13.4` | `amd64` | `13.4-RELEASE` | `thin` |
 | `14.1` | `amd64` | `14.1-RELEASE` | `thin` |
