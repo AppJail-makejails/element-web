@@ -2,7 +2,7 @@ INCLUDE options/options.makejail
 
 ARG element_nginx_conf=files/nginx.conf
 ARG element_config?
-ARG element_tag=13.4
+ARG element_tag=13.5
 ARG element_ajspec=gh+AppJail-makejails/element-web
 
 FROM --entrypoint "${element_ajspec}" element-web:${element_tag}

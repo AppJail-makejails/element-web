@@ -21,7 +21,7 @@ appjail makejail \
 
 ### Arguments
 
-* `element_tag` (default: `13.4`): See [#tags](#tags).
+* `element_tag` (default: `13.5`): See [#tags](#tags).
 * `element_ajspec` (default: `gh+AppJail-makejails/element-web`): Entry point where the `appjail-ajspec(5)` file is located.
 * `element_config` (optional): Element configuration file.
 * `element_nginx_conf` (default: `files/nginx.conf`): NGINX configuration file.
@@ -30,5 +30,5 @@ appjail makejail \
 
 | Tag    | Arch    | Version        | Type   |
 | ------ | ------- | -------------- | ------ |
-| `13.4` | `amd64` | `13.4-RELEASE` | `thin` |
+| `13.5` | `amd64` | `13.5-RELEASE` | `thin` |
 | `14.2` | `amd64` | `14.2-RELEASE` | `thin` |
