@@ -1,5 +1,6 @@
 ARG element-web_from=ghcr.io/appjail-makejails/element-web
 ARG element-web_tag=latest
 
+OPTION container=boot
 OPTION overwrite=force
 OPTION from=${element-web_from}:${element-web_tag}
